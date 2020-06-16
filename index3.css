@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/signup.png.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.container{
+    width: 78%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header{
+      background-color: #1b1e23;
+      color: white;
+      min-height: 60px;
+      padding: 20px 0 0 0;
+  }
+  header ul{
+      padding: 0;
+      margin: 0;
+  }
+  header li{
+      float: left;
+      padding: 0 20px 0 20px;
+      display: inline;
+  }
+  header li a{
+      color: white;
+      text-decoration: none;
+  }
+  header .logo{
+      float: left;
+  }
+  header .logo h3{
+      margin: 0;
+        
+  }
+  header nav{
+      float: right;
+      margin-top: 10px;
+  }
+  header a:hover{
+      color: grey;
+      font-weight: bolder;
+  }
+    #booking{
+      background-color: #1b1e23;
+      color: white;
+      padding: 0;
+      text-align:center;
+  }
+  #booking h3{
+      padding: 0;
+  }
+  #booking button{
+      padding: 0;
+      margin-left: 20px;
+      margin-top: 10px;
+      width: 100px;
+      cursor: pointer;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+  }
+  #booking button a{
+      color: #1b1e23;
+      text-decoration: none;
+  }
+  
+  #footer {
+      background-color: #1b1e23;
+      color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  
+
+
+
+ .form-section{
+     height: 410px;
+     width: 400px;
+     background-color: black;
+     color:white;
+     margin-top: 100px;
+     margin-left: 500px;
+     box-sizing: border-box;
+     padding: 50px 10px;
+     border-radius: 30px;
+ }
+ .image-class{
+     border-radius: 50px;
+     height: 70px;
+     width: 70px;
+     position: absolute;
+     margin-top: -80px;
+     margin-left: 150px;
+ }
+ form p{
+     margin-left: 150px; 
+ }
+ form input{
+     margin-left: 100px;
+     height: 30px;
+     border-radius: 5px;
+ }
+ form button{
+     height: 30px;
+     width: 88px;
+     margin-left: 150px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     cursor: pointer;
+      
+ }
+ form .login{
+     height: 50px;
+     width: 100px;
+     margin-left: 170px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-decoration: none;
+     color: white;
+ }

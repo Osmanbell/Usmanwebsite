@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/person4.png.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.containers{
+    width: 78%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+ .form-section{
+     height: 320px;
+     width: 400px;
+     background-color: black;
+     color:white;
+     margin-top: 100px;
+     margin-left: 500px;
+     box-sizing: border-box;
+     padding: 50px 10px;
+     border-radius: 30px;
+ }
+ .image-class{
+     border-radius: 50px;
+     height: 70px;
+     width: 70px;
+     position: absolute;
+     margin-top: -80px;
+     margin-left: 150px;
+ }
+ form p{
+     margin-left: 150px; 
+ }
+ form input{
+     margin-left: 100px;
+     height: 30px;
+     border-radius: 5px;
+ }
+ form button{
+     height: 30px;
+     width: 88px;
+     margin-left: 150px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     cursor: pointer;
+      
+ }
+ form .forgot-password{
+     margin-left: 140px;
+     text-decoration: none;
+     color: white;
+ }
